@@ -1,0 +1,1 @@
+_this remoteExec ["arty_ammo_fnc_remoteLoad", (_this select 0) turretOwner [0], false];
