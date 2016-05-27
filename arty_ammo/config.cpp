@@ -6,6 +6,7 @@ class CfgPatches {
         requiredVersion = 0.1;
         requiredAddons[] = {"A3_Static_F_Mortar_01", "ace_interaction", "ace_mk6mortar", "rhs_c_heavyweapons", "rhsusf_c_statics"};
         author[] = {"Lex"};
+		authorUrl = "https://github.com/TheLexDev/";
     };
 };
 
