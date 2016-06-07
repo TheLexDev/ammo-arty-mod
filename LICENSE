@@ -1,7 +1,7 @@
-Copyright (C)  2015  Lex
+Copyright (C)  2016  [SW]Lex
 
-This program is free software; you can redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
+This program is free software; you can redistribute it
+under the terms of the GNU General Public License as published by
 the Free Software Foundation; either version 2 of the License, or
 (at your option) any later version.
 
@@ -10,24 +10,30 @@ but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
-You should have received a copy of the GNU General Public License along
-with this program; if not, write to the Free Software Foundation, Inc.,
-51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+============================================================================
 
-Additionally to the conditions of the GPL, you are granted the right to
-redistribute any combination of the .pbo-files of the finished product
-without having to share your source code, as long as you do not modify the
-source code of the individual modules.
+Данный аддон, созданный для игры Arma 3 студии Bohemia Interactive,
+является свободно распространяемым программным обеспечением в соответствии
+с GNU General Public License.
 
-When publishing a derivative of this product you may not use a name that
-might create the impression that your version is an official release.
+Любой может использовать/копировать/распространять/модифицировать в ЛИЧНЫХ ЦЕЛЯХ
+данное программное обеспечение при условии сохранении авторских прав.
 
-Some folders of this project may contain a separate LICENSE file. Should
-that be the case, everything in that folder and all subfolders is subject
-to that license instead.
+Распространение модифицированного аддона/использование в
+публичных целях (в сборках аддонов) запрещено без разрешения автора.
 
- - ARMA PUBLIC LICENSE (\addons\apl)
- - CreativeCommons Attributions 3.0 (\addons\fastroping\data\sounds)
+К данному программному обеспечению также применяется Arma Public Licence (APL),
+на основе которой:
+1) Вы должны оформлять материал в том соответствии, в котором он был оформлен
+автором или лицензиором.
+2) Использование ПО только в некоммерческих целях.
+3) Продукт разрешено использовать только в игре Arma 3 студии Bohemia Interactive.
+Запрещено использование программного кода/3D моделей/текстур в сторонних от Arma 3
+программах.
+
+============================================================================
+
+Связаться с автором данного ПО можно по ссылке: https://github.com/TheLexDev
 
 ============================================================================
                    Full GNU General Public License Text
