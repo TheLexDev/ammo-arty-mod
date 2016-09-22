@@ -1,4 +1,4 @@
-# Artillery Ammo Mod v1.0
+# Artillery Ammo Mod v1.5
 The artillery ammo mod for Arma 3
 
 ============================================================================
