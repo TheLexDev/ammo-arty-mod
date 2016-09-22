@@ -1,0 +1,77 @@
+class CfgCloudlets
+{
+	class Default;
+	class lex_HeatHaze: Default
+	{
+		interval=0.0060000001;
+		circleRadius=0;
+		circleVelocity[]={0,0,0};
+		particleShape="\A3\data_f\ParticleEffects\Universal\Refract";
+		particleFSNtieth=1;
+		particleFSIndex=0;
+		particleFSFrameCount=1;
+		particleFSLoop=0;
+		angleVar=1;
+		animationName="";
+		particleType="Billboard";
+		timerPeriod=1.5;
+		lifeTime=4;
+		moveVelocity[]=
+		{
+			"-0.002*directionX",
+			"-0.002*directionY",
+			"-0.002*directionZ"
+		};
+		rotationVelocity=1;
+		weight=1.255;
+		volume=1;
+		rubbing=0.07;
+		size[]={0.075000001,0.18};
+		color[]=
+		{
+			{0.059999999,0.059999999,0.059999999,0.23},
+			{0.30000001,0.30000001,0.30000001,0.2},
+			{0.30000001,0.30000001,0.30000001,0.17},
+			{0.30000001,0.30000001,0.30000001,0.14},
+			{0.30000001,0.30000001,0.30000001,0.050000001}
+		};
+		colorCoef[]={1,1,1,1};
+		animationSpeed[]={2,1};
+		randomDirectionPeriod=0.1;
+		randomDirectionIntensity=0.029999999;
+		onTimerScript="";
+		beforeDestroyScript="";
+		destroyOnWaterSurface=1;
+		blockAIVisibility=0;
+		sizeCoef=0.5;
+		animationSpeedCoef=1;
+		position[]=
+		{
+			"positionX",
+			"positionY",
+			"positionZ"
+		};
+		lifeTimeVar=0.5;
+		positionVar[]={0,0,0};
+		MoveVelocityVar[]={0,0,0};
+		rotationVelocityVar=5;
+		sizeVar=0.2;
+		colorVar[]={0,0,0,0};
+		randomDirectionPeriodVar=0;
+		randomDirectionIntensityVar=0;
+	};
+};
+
+class lex_BarrelRefract
+{
+	class lex_HeatHaze
+	{
+		simulation="particles";
+		type="lex_HeatHaze";
+		position[]={0,0,0};
+		intensity=3;
+		interval=1;
+		lifeTime=10;
+		qualityLevel=2;
+	};
+};
