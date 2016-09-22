@@ -1,11 +1,12 @@
-if (((_this select 0) canAddItemToVest "lex_82mm_HE_round") || ((_this select 0) canAddItemToBackpack "lex_82mm_HE_round")) then
+_shellClass = _this select 1;
+if (((_this select 0) canAddItemToVest _shellClass) || ((_this select 0) canAddItemToBackpack _shellClass)) then
 {
-	if ((_this select 0) canAddItemToVest "lex_82mm_HE_round") then
+	if ((_this select 0) canAddItemToVest _shellClass) then
 	{
-		(_this select 0) addItemToVest "lex_82mm_HE_round";
+		(_this select 0) addItemToVest _shellClass;
 	} else
 	{
-		(_this select 0) addItemToBackpack "lex_82mm_HE_round";
+		(_this select 0) addItemToBackpack _shellClass;
 	};
 } else
 {
@@ -16,5 +17,5 @@ if (((_this select 0) canAddItemToVest "lex_82mm_HE_round") || ((_this select 0)
 		_holder = 'GroundWeaponHolder' createVehicle (getPosATL (_this select 0));
 	};
 	_holder setPosATL [(getPosATL (_this select 0)) select 0, (getPosATL (_this select 0)) select 1, (getPosATL (_this select 0)) select 2];
-	_holder addMagazineCargoGlobal ["lex_82mm_HE_round", 1];
+	_holder addMagazineCargoGlobal [_shellClass, 1];
 };

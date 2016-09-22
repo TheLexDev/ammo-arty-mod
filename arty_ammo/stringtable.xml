@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="lex_arty_ammo">
+    <Package name="Translation">
+        <Key ID="STR_lex_arty_ammo_82mm_ammobox">
+            <English>82mm HE ammo box</English>
+            <Russian>Ящик с 82-мм ОФ минами</Russian>
+        </Key>
+        <Key ID="STR_lex_arty_Open_box">
+            <English>Open</English>
+            <Russian>Открыть ящик</Russian>
+        </Key>
+		<Key ID="STR_lex_arty_Close_box">
+            <English>Close</English>
+            <Russian>Закрыть ящик</Russian>
+        </Key>
+		<Key ID="STR_lex_arty_Take">
+            <English>Take</English>
+            <Russian>Взять</Russian>
+        </Key>
+		<Key ID="STR_lex_arty_Put">
+            <English>Put</English>
+            <Russian>Положить</Russian>
+        </Key>
+		<Key ID="STR_lex_arty_ammo_120mm_ammobox">
+            <English>120mm HE ammo box</English>
+            <Russian>Ящик с 120-мм ОФ минами</Russian>
+        </Key>
+		<Key ID="STR_lex_arty_Load">
+            <English>Load</English>
+            <Russian>Зарядить</Russian>
+        </Key>
+		<Key ID="STR_lex_arty_2b11_mortar_forest">
+            <English>Mortar 2B11 120mm (forest)</English>
+            <Russian>Миномет 2Б11 120-мм (лесной)</Russian>
+        </Key>
+		<Key ID="STR_lex_arty_2b11_mortar_desert">
+            <English>Mortar 2B11 120mm (desert)</English>
+            <Russian>Миномет 2Б11 120-мм (пустынный)</Russian>
+        </Key>
+		<Key ID="STR_lex_arty_82mm_HE_round">
+            <English>82mm HE round</English>
+            <Russian>82мм ОФ минометная мина</Russian>
+        </Key>
+		<Key ID="STR_lex_arty_120mm_HE_round">
+            <English>120mm HE round</English>
+            <Russian>120мм ОФ минометная мина</Russian>
+        </Key>
+		<Key ID="STR_lex_arty_120mm_HE_round_ammo">
+            <English>OF-843B</English>
+            <Russian>ОФ-843Б</Russian>
+        </Key>
+		<Key ID="STR_lex_arty_2b11_mortar_weap">
+            <English>120mm mortar 2B11</English>
+            <Russian>120-мм миномет 2Б11</Russian>
+        </Key>
+		<Key ID="STR_LEX_ARTY_LOADED">
+            <English>It's already loaded!</English>
+            <Russian>Уже заряжено!</Russian>
+        </Key>
+		<Key ID="STR_LEX_ARTY_CANCELED">
+            <English>Canceled!</English>
+            <Russian>Действие отменено!</Russian>
+        </Key>
+		<Key ID="STR_LEX_ARTY_LOADING">
+            <English>Loading...</English>
+            <Russian>Заряжаю...</Russian>
+        </Key>
+		<Key ID="STR_LEX_ARTY_MISSED_AMMO">
+            <English>No required ammo!</English>
+            <Russian>Нет требуемых боеприпасов!</Russian>
+        </Key>
+    </Package>
+</Project>
